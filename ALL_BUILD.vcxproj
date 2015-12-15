@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{03C719FE-5D7F-4B94-86FC-3FBC9DD82B1E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Engineering/Graduation Project/Modified Version;D:/Program Files (x86)/OpenCV-2.4.5/OpenCV_CMake;D:/Program Files (x86)/OpenCV-2.4.5/opencv/include;D:/Program Files (x86)/OpenCV-2.4.5/opencv/include/opencv;D:/Program;D:/Engineering/Graduation Project/Modified Version/Files;D:/Engineering/Graduation Project/Modified Version/(;D:/Engineering/Graduation Project/Modified Version/x86;D:/Engineering/Graduation Project/Modified Version/);/OpenCV-2.4.5/opencv/modules/core/include;/OpenCV-2.4.5/opencv/modules/imgproc/include;/OpenCV-2.4.5/opencv/modules/flann/include;/OpenCV-2.4.5/opencv/modules/highgui/include;/OpenCV-2.4.5/opencv/modules/features2d/include;/OpenCV-2.4.5/opencv/modules/calib3d/include;/OpenCV-2.4.5/opencv/modules/ml/include;/OpenCV-2.4.5/opencv/modules/video/include;/OpenCV-2.4.5/opencv/modules/objdetect/include;/OpenCV-2.4.5/opencv/modules/contrib/include;/OpenCV-2.4.5/opencv/modules/photo/include;/OpenCV-2.4.5/opencv/modules/legacy/include;/OpenCV-2.4.5/opencv/modules/gpu/include;/OpenCV-2.4.5/opencv/modules/nonfree/include;/OpenCV-2.4.5/opencv/modules/stitching/include;/OpenCV-2.4.5/opencv/modules/superres/include;/OpenCV-2.4.5/opencv/modules/ts/include;/OpenCV-2.4.5/opencv/modules/videostab/include;d:/Program Files (x86)/mrpt-1.0.1/include/mrpt/mrpt-config;d:/Program Files (x86)/mrpt-1.0.1/libs/base/include;d:/Program Files (x86)/mrpt-1.0.1/libs/maps/include;d:/Program Files (x86)/mrpt-1.0.1/libs/obs/include;d:/Program Files (x86)/mrpt-1.0.1/libs/gui/include;d:/Program Files (x86)/mrpt-1.0.1/libs/opengl/include;d:/Program Files (x86)/mrpt-1.0.1/libs/hwdrivers/include;d:/Program Files (x86)/mrpt-1.0.1/libs/bayes/include;d:/Program Files (x86)/mrpt-1.0.1/libs/graphs/include;d:/Program Files (x86)/mrpt-1.0.1/libs/vision/include;d:/Program Files (x86)/mrpt-1.0.1/libs/scanmatching/include;d:/Program Files (x86)/mrpt-1.0.1/libs/slam/include;D:/Qt/5.0.2/msvc2012_64/include/QtCore;D:/Qt/5.0.2/msvc2012_64/include;D:/Qt/5.0.2/msvc2012_64/mkspecs/win32-msvc2012;D:/Qt/5.0.2/msvc2012_64/include/QtConcurrent;D:/Program Files/OpenNI/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Engineering/Graduation Project/Modified Version;D:/Program Files (x86)/OpenCV-2.4.5/OpenCV_CMake;D:/Program Files (x86)/OpenCV-2.4.5/opencv/include;D:/Program Files (x86)/OpenCV-2.4.5/opencv/include/opencv;D:/Program;D:/Engineering/Graduation Project/Modified Version/Files;D:/Engineering/Graduation Project/Modified Version/(;D:/Engineering/Graduation Project/Modified Version/x86;D:/Engineering/Graduation Project/Modified Version/);/OpenCV-2.4.5/opencv/modules/core/include;/OpenCV-2.4.5/opencv/modules/imgproc/include;/OpenCV-2.4.5/opencv/modules/flann/include;/OpenCV-2.4.5/opencv/modules/highgui/include;/OpenCV-2.4.5/opencv/modules/features2d/include;/OpenCV-2.4.5/opencv/modules/calib3d/include;/OpenCV-2.4.5/opencv/modules/ml/include;/OpenCV-2.4.5/opencv/modules/video/include;/OpenCV-2.4.5/opencv/modules/objdetect/include;/OpenCV-2.4.5/opencv/modules/contrib/include;/OpenCV-2.4.5/opencv/modules/photo/include;/OpenCV-2.4.5/opencv/modules/legacy/include;/OpenCV-2.4.5/opencv/modules/gpu/include;/OpenCV-2.4.5/opencv/modules/nonfree/include;/OpenCV-2.4.5/opencv/modules/stitching/include;/OpenCV-2.4.5/opencv/modules/superres/include;/OpenCV-2.4.5/opencv/modules/ts/include;/OpenCV-2.4.5/opencv/modules/videostab/include;d:/Program Files (x86)/mrpt-1.0.1/include/mrpt/mrpt-config;d:/Program Files (x86)/mrpt-1.0.1/libs/base/include;d:/Program Files (x86)/mrpt-1.0.1/libs/maps/include;d:/Program Files (x86)/mrpt-1.0.1/libs/obs/include;d:/Program Files (x86)/mrpt-1.0.1/libs/gui/include;d:/Program Files (x86)/mrpt-1.0.1/libs/opengl/include;d:/Program Files (x86)/mrpt-1.0.1/libs/hwdrivers/include;d:/Program Files (x86)/mrpt-1.0.1/libs/bayes/include;d:/Program Files (x86)/mrpt-1.0.1/libs/graphs/include;d:/Program Files (x86)/mrpt-1.0.1/libs/vision/include;d:/Program Files (x86)/mrpt-1.0.1/libs/scanmatching/include;d:/Program Files (x86)/mrpt-1.0.1/libs/slam/include;D:/Qt/5.0.2/msvc2012_64/include/QtCore;D:/Qt/5.0.2/msvc2012_64/include;D:/Qt/5.0.2/msvc2012_64/mkspecs/win32-msvc2012;D:/Qt/5.0.2/msvc2012_64/include/QtConcurrent;D:/Program Files/OpenNI/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Engineering/Graduation Project/Modified Version;D:/Program Files (x86)/OpenCV-2.4.5/OpenCV_CMake;D:/Program Files (x86)/OpenCV-2.4.5/opencv/include;D:/Program Files (x86)/OpenCV-2.4.5/opencv/include/opencv;D:/Program;D:/Engineering/Graduation Project/Modified Version/Files;D:/Engineering/Graduation Project/Modified Version/(;D:/Engineering/Graduation Project/Modified Version/x86;D:/Engineering/Graduation Project/Modified Version/);/OpenCV-2.4.5/opencv/modules/core/include;/OpenCV-2.4.5/opencv/modules/imgproc/include;/OpenCV-2.4.5/opencv/modules/flann/include;/OpenCV-2.4.5/opencv/modules/highgui/include;/OpenCV-2.4.5/opencv/modules/features2d/include;/OpenCV-2.4.5/opencv/modules/calib3d/include;/OpenCV-2.4.5/opencv/modules/ml/include;/OpenCV-2.4.5/opencv/modules/video/include;/OpenCV-2.4.5/opencv/modules/objdetect/include;/OpenCV-2.4.5/opencv/modules/contrib/include;/OpenCV-2.4.5/opencv/modules/photo/include;/OpenCV-2.4.5/opencv/modules/legacy/include;/OpenCV-2.4.5/opencv/modules/gpu/include;/OpenCV-2.4.5/opencv/modules/nonfree/include;/OpenCV-2.4.5/opencv/modules/stitching/include;/OpenCV-2.4.5/opencv/modules/superres/include;/OpenCV-2.4.5/opencv/modules/ts/include;/OpenCV-2.4.5/opencv/modules/videostab/include;d:/Program Files (x86)/mrpt-1.0.1/include/mrpt/mrpt-config;d:/Program Files (x86)/mrpt-1.0.1/libs/base/include;d:/Program Files (x86)/mrpt-1.0.1/libs/maps/include;d:/Program Files (x86)/mrpt-1.0.1/libs/obs/include;d:/Program Files (x86)/mrpt-1.0.1/libs/gui/include;d:/Program Files (x86)/mrpt-1.0.1/libs/opengl/include;d:/Program Files (x86)/mrpt-1.0.1/libs/hwdrivers/include;d:/Program Files (x86)/mrpt-1.0.1/libs/bayes/include;d:/Program Files (x86)/mrpt-1.0.1/libs/graphs/include;d:/Program Files (x86)/mrpt-1.0.1/libs/vision/include;d:/Program Files (x86)/mrpt-1.0.1/libs/scanmatching/include;d:/Program Files (x86)/mrpt-1.0.1/libs/slam/include;D:/Qt/5.0.2/msvc2012_64/include/QtCore;D:/Qt/5.0.2/msvc2012_64/include;D:/Qt/5.0.2/msvc2012_64/mkspecs/win32-msvc2012;D:/Qt/5.0.2/msvc2012_64/include/QtConcurrent;D:/Program Files/OpenNI/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Engineering/Graduation Project/Modified Version;D:/Program Files (x86)/OpenCV-2.4.5/OpenCV_CMake;D:/Program Files (x86)/OpenCV-2.4.5/opencv/include;D:/Program Files (x86)/OpenCV-2.4.5/opencv/include/opencv;D:/Program;D:/Engineering/Graduation Project/Modified Version/Files;D:/Engineering/Graduation Project/Modified Version/(;D:/Engineering/Graduation Project/Modified Version/x86;D:/Engineering/Graduation Project/Modified Version/);/OpenCV-2.4.5/opencv/modules/core/include;/OpenCV-2.4.5/opencv/modules/imgproc/include;/OpenCV-2.4.5/opencv/modules/flann/include;/OpenCV-2.4.5/opencv/modules/highgui/include;/OpenCV-2.4.5/opencv/modules/features2d/include;/OpenCV-2.4.5/opencv/modules/calib3d/include;/OpenCV-2.4.5/opencv/modules/ml/include;/OpenCV-2.4.5/opencv/modules/video/include;/OpenCV-2.4.5/opencv/modules/objdetect/include;/OpenCV-2.4.5/opencv/modules/contrib/include;/OpenCV-2.4.5/opencv/modules/photo/include;/OpenCV-2.4.5/opencv/modules/legacy/include;/OpenCV-2.4.5/opencv/modules/gpu/include;/OpenCV-2.4.5/opencv/modules/nonfree/include;/OpenCV-2.4.5/opencv/modules/stitching/include;/OpenCV-2.4.5/opencv/modules/superres/include;/OpenCV-2.4.5/opencv/modules/ts/include;/OpenCV-2.4.5/opencv/modules/videostab/include;d:/Program Files (x86)/mrpt-1.0.1/include/mrpt/mrpt-config;d:/Program Files (x86)/mrpt-1.0.1/libs/base/include;d:/Program Files (x86)/mrpt-1.0.1/libs/maps/include;d:/Program Files (x86)/mrpt-1.0.1/libs/obs/include;d:/Program Files (x86)/mrpt-1.0.1/libs/gui/include;d:/Program Files (x86)/mrpt-1.0.1/libs/opengl/include;d:/Program Files (x86)/mrpt-1.0.1/libs/hwdrivers/include;d:/Program Files (x86)/mrpt-1.0.1/libs/bayes/include;d:/Program Files (x86)/mrpt-1.0.1/libs/graphs/include;d:/Program Files (x86)/mrpt-1.0.1/libs/vision/include;d:/Program Files (x86)/mrpt-1.0.1/libs/scanmatching/include;d:/Program Files (x86)/mrpt-1.0.1/libs/slam/include;D:/Qt/5.0.2/msvc2012_64/include/QtCore;D:/Qt/5.0.2/msvc2012_64/include;D:/Qt/5.0.2/msvc2012_64/mkspecs/win32-msvc2012;D:/Qt/5.0.2/msvc2012_64/include/QtConcurrent;D:/Program Files/OpenNI/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Engineering/Graduation Project/Modified Version/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HD:/Engineering/Graduation Project/Modified Version" "-BD:/Engineering/Graduation Project/Modified Version" --check-stamp-file "D:\Engineering\Graduation Project\Modified Version\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Engineering/Graduation Project/Modified Version/CMakeLists.txt;D:\Engineering\Graduation Project\Modified Version\CMakeLists.txt;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeSystem.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeCCompiler.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeCXXCompiler.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeRCCompiler.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;D:\Program Files (x86)\OpenCV-2.4.5\OpenCV_CMake\OpenCVConfig-version.cmake;D:\Program Files (x86)\OpenCV-2.4.5\OpenCV_CMake\OpenCVConfig.cmake;d:\Program Files (x86)\mrpt-1.0.1\MRPTConfig.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenMP.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Engineering\Graduation Project\Modified Version\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Engineering/Graduation Project/Modified Version/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HD:/Engineering/Graduation Project/Modified Version" "-BD:/Engineering/Graduation Project/Modified Version" --check-stamp-file "D:\Engineering\Graduation Project\Modified Version\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Engineering/Graduation Project/Modified Version/CMakeLists.txt;D:\Engineering\Graduation Project\Modified Version\CMakeLists.txt;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeSystem.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeCCompiler.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeCXXCompiler.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeRCCompiler.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;D:\Program Files (x86)\OpenCV-2.4.5\OpenCV_CMake\OpenCVConfig-version.cmake;D:\Program Files (x86)\OpenCV-2.4.5\OpenCV_CMake\OpenCVConfig.cmake;d:\Program Files (x86)\mrpt-1.0.1\MRPTConfig.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenMP.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Engineering\Graduation Project\Modified Version\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Engineering/Graduation Project/Modified Version/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HD:/Engineering/Graduation Project/Modified Version" "-BD:/Engineering/Graduation Project/Modified Version" --check-stamp-file "D:\Engineering\Graduation Project\Modified Version\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Engineering/Graduation Project/Modified Version/CMakeLists.txt;D:\Engineering\Graduation Project\Modified Version\CMakeLists.txt;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeSystem.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeCCompiler.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeCXXCompiler.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeRCCompiler.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;D:\Program Files (x86)\OpenCV-2.4.5\OpenCV_CMake\OpenCVConfig-version.cmake;D:\Program Files (x86)\OpenCV-2.4.5\OpenCV_CMake\OpenCVConfig.cmake;d:\Program Files (x86)\mrpt-1.0.1\MRPTConfig.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenMP.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Engineering\Graduation Project\Modified Version\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Engineering/Graduation Project/Modified Version/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HD:/Engineering/Graduation Project/Modified Version" "-BD:/Engineering/Graduation Project/Modified Version" --check-stamp-file "D:\Engineering\Graduation Project\Modified Version\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Engineering/Graduation Project/Modified Version/CMakeLists.txt;D:\Engineering\Graduation Project\Modified Version\CMakeLists.txt;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeSystem.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeCCompiler.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeCXXCompiler.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeFiles\2.8.11.1\CMakeRCCompiler.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;D:\Qt\5.0.2\msvc2012_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;D:\Program Files (x86)\OpenCV-2.4.5\OpenCV_CMake\OpenCVConfig-version.cmake;D:\Program Files (x86)\OpenCV-2.4.5\OpenCV_CMake\OpenCVConfig.cmake;d:\Program Files (x86)\mrpt-1.0.1\MRPTConfig.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenMP.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\Engineering\Graduation Project\Modified Version\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Engineering\Graduation Project\Modified Version\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\8444e244fa7e01cba3c03d07062cffaa\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Engineering/Graduation Project/Modified Version/CMakeFiles/8444e244fa7e01cba3c03d07062cffaa/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Engineering\Graduation Project\Modified Version\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Engineering/Graduation Project/Modified Version/CMakeFiles/8444e244fa7e01cba3c03d07062cffaa/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Engineering\Graduation Project\Modified Version\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Engineering/Graduation Project/Modified Version/CMakeFiles/8444e244fa7e01cba3c03d07062cffaa/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Engineering\Graduation Project\Modified Version\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Engineering/Graduation Project/Modified Version/CMakeFiles/8444e244fa7e01cba3c03d07062cffaa/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Engineering\Graduation Project\Modified Version\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Engineering/Graduation Project/Modified Version/Interface.vcxproj">
+      <Project>0E817003-3ECB-4E7D-B76D-7482782B074F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Engineering/Graduation Project/Modified Version/ZERO_CHECK.vcxproj">
+      <Project>29993B9F-BC89-4651-8E29-201C7EC1FBC8</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

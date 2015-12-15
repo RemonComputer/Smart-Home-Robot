@@ -1,0 +1,3 @@
+D:/Engineering/Graduation Project/Modified Version/CMakeFiles/ALL_BUILD.dir
+D:/Engineering/Graduation Project/Modified Version/CMakeFiles/Interface.dir
+D:/Engineering/Graduation Project/Modified Version/CMakeFiles/ZERO_CHECK.dir

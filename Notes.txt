@@ -1,0 +1,1 @@
+- if you rebuid the solution , go to debug menu->Exceptions->Reset all (to prevent strange Exceptions) and OK

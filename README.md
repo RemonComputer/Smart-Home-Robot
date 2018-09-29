@@ -12,6 +12,7 @@
 - A robot with motors and Wheels that you can send to it the control signal.
 
 ## Software Requirements
+- CMake 2.8.11 or higher
 - OpenNI
 - OpenMP
 - OpenCV
